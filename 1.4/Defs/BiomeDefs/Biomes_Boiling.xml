@@ -74,16 +74,16 @@
 					<li>
 						<terrain>SoilRich</terrain>
 						<min>0.73</min>
-						<max>0.80</max>
+						<max>0.78</max>
 					</li>
 					<li>
 						<terrain>RG_HotSpringSand</terrain>
-						<min>0.80</min>
-						<max>0.93</max>
+						<min>0.78</min>
+						<max>0.86</max>
 					</li>
 					<li>
 						<terrain>RG_HotSpring</terrain>
-						<min>0.93</min>
+						<min>0.86</min>
 						<max>1.06</max>
 					</li>
 					<li>
@@ -112,22 +112,34 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<RG_Plant_BoilingGrass>5.0</RG_Plant_BoilingGrass>
-			<RG_Plant_TallBoilingGrass>2.0</RG_Plant_TallBoilingGrass>
-			<RG_Plant_BramblesBoiling>1.0</RG_Plant_BramblesBoiling>
-			<RG_Plant_PurpuraCushion>0.5</RG_Plant_PurpuraCushion>
-			<RG_Plant_BoilingBush>0.6</RG_Plant_BoilingBush>
+			<RG_Plant_TallBoilingGrass>1.2</RG_Plant_TallBoilingGrass>
 			<RG_Plant_BoilingMoss>1.0</RG_Plant_BoilingMoss>
-			<RG_Plant_LuzincFlower>0.5</RG_Plant_LuzincFlower>
+			<RG_Plant_PurpuraCushion>0.4</RG_Plant_PurpuraCushion>
+			<RG_Plant_BoilingBush>0.3</RG_Plant_BoilingBush>
+			<RG_Plant_BramblesBoiling>1.0</RG_Plant_BramblesBoiling>
+
+			<RG_Plant_AmitisFlower>0.15</RG_Plant_AmitisFlower>
+			<RG_Plant_LuzincFlower>0.15</RG_Plant_LuzincFlower>
+						<Plant_HealrootWild>0.05</Plant_HealrootWild>
+									<RG_Plant_BoilingTreePine>0.5</RG_Plant_BoilingTreePine>
+												<RG_Plant_TreeBoilingBirch>0.4</RG_Plant_TreeBoilingBirch>
+								<RG_Plant_SpikedBoilingTreePine>0.15</RG_Plant_SpikedBoilingTreePine>
+			<!--			
+			
+
+
+
+
 			<RG_Plant_AmitisFlower>0.5</RG_Plant_AmitisFlower>
-			<RG_Plant_TreeBoilingAspen>0.5</RG_Plant_TreeBoilingAspen>
-			<RG_Plant_SpikedBoilingTreePine>0.5</RG_Plant_SpikedBoilingTreePine>
-			<RG_Plant_BoilingTreePine>0.05</RG_Plant_BoilingTreePine>
+
+
+
 			<RG_Plant_Boilberry>0.05</RG_Plant_Boilberry>
-			<Plant_HealrootWild>0.05</Plant_HealrootWild>
+
 			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">4</Plant_Ripthorn>
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">10</Plant_GrayGrass>
 			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">0.5</Plant_Witchwood>
-			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">4</Plant_TreeGrayPine>
+			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">4</Plant_TreeGrayPine>-->
 		</wildPlants>
 		<wildAnimals>
 			<Donkey>0.20</Donkey>
@@ -148,9 +160,7 @@
 			<Boomalope>0.4</Boomalope>
 			<Boomrat>0.4</Boomrat>
 			<Tortoise>0.3</Tortoise>
-			<Gazelle>0.3</Gazelle>
 			<Megasloth>0.2</Megasloth>
-			<Rhinoceros>0.1</Rhinoceros>
 			<Bear_Grizzly>0.07</Bear_Grizzly>
 			<Wolf_Timber>0.07</Wolf_Timber>
 			<Fox_Red>0.07</Fox_Red>

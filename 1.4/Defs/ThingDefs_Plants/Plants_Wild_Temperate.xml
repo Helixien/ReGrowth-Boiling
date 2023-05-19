@@ -270,7 +270,7 @@
 	</ThingDef>
 	<!--=============== Boiling Aspen Tree ==============-->
 	<ThingDef ParentName="DeciduousTreeBase">
-		<defName>RG_Plant_TreeBoilingAspen</defName>
+		<defName>RG_Plant_TreeBoilingBirch</defName>
 		<label>aspen tree</label>
 		<description>A genetically modified cold-biome tree known for its thin, white, paper-like bark and colourful leaves.</description>
 		<graphicData>
@@ -348,7 +348,7 @@
 		<ingestible/>
 		<plant>
 			<growDays>56</growDays>
-			<visualSizeRange>2.5~3.5</visualSizeRange>
+			<visualSizeRange>2~3</visualSizeRange>
 			<harvestWork>1200</harvestWork>
 			<harvestYield>36</harvestYield>
 		</plant>
