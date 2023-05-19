@@ -4,12 +4,12 @@
 		<defName>RG_BoilingForest</defName>
 		<label>boiling forest</label>
 		<description>text.todo</description>
-		<workerClass>BiomeWorker_TemperateForest</workerClass>
+		<workerClass>RegrowthCore.BiomeWorker_BoilingForest</workerClass>
 		<animalDensity>3.2</animalDensity>
 		<plantDensity>0.65</plantDensity>
 		<settlementSelectionWeight>1</settlementSelectionWeight>
 		<movementDifficulty>1</movementDifficulty>
-		<texture>World/Biomes/TemperateForest</texture>
+		<texture>World/Biomes/BoilingForest</texture>
 		<forageability>1</forageability>
 		<foragedFood>RawBerries</foragedFood>
 		<wildPlantRegrowDays>20</wildPlantRegrowDays>
