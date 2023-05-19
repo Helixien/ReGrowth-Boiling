@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--=============== Boiling Grass ==============-->
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_BoilingGrass</defName>
+		<label>grass</label>
+		<description>Wild grass. Grows in boiling forest regions where there is a little light and minimally fertile ground.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.2</Flammability>
+			<Nutrition>0.20</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/AspenGrass</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible/>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<leaflessGraphicPath>Things/Plant/Grass_Leafless</leaflessGraphicPath>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_TallBoilingGrass</defName>
+		<label>grass</label>
+		<description>Wild tall grass. Slows down anyone moving over it.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<pathCost>14</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/Grass</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>3</growDays>
+			<harvestWork>60</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.7~0.85</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>10</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<!--=============== Boiling Shrub ==============-->
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_PurpuraCushion</defName>
+		<label>purpura cushion</label>
+		<description>Wild carpet shrubs with pruple leafs that grows in boiling forests. Shrubs takes a long time to grow, but is very resistant.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>0.6</Flammability>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/AspenShrubs</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible/>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.2</fertilitySensitivity>
+			<growDays>15</growDays>
+			<leaflessGraphicPath>Things/Plant/Leafless/AspenShrubs_Leafless</leaflessGraphicPath>
+			<harvestWork>75</harvestWork>
+			<maxMeshCount>4</maxMeshCount>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>8</wildClusterWeight>
+			<visualSizeRange>0.5~0.8</visualSizeRange>
+			<topWindExposure>0.3</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<!--=============== Boiling Brambles ==============-->
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_BramblesBoiling</defName>
+		<label>brambles</label>
+		<description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<pathCost>15</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/RedBrambles</texPath>
+			<drawSize>1.7</drawSize>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>3</growDays>
+			<harvestWork>60</harvestWork>
+			<maxMeshCount>4</maxMeshCount>
+			<leaflessGraphicPath>Things/Plant/Brambles_Leafless</leaflessGraphicPath>
+			<visualSizeRange>0.7~0.85</visualSizeRange>
+			<topWindExposure>0.15</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		</plant>
+	</ThingDef>
+	<!--=============== Boiling Moss ==============-->
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_BoilingMoss</defName>
+		<label>moss</label>
+		<description>Wild moss that grows in clumps in areas of low light in boiling forests. Moss takes a long time to grow, but is very resistant.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>0.6</Flammability>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Moss</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible/>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>4</growDays>
+			<leaflessGraphicPath>Things/Plant/Moss_Leafless</leaflessGraphicPath>
+			<harvestWork>60</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.0</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<!--=============== Boiling Bush ==============-->
+	<ThingDef ParentName="BushBase">
+		<defName>RG_Plant_BoilingBush</defName>
+		<label>bush</label>
+		<description>A short shrub. Does not typically talk.</description>
+		<graphicData>
+			<texPath>Things/Plant/Bush</texPath>
+			<drawSize>1.15</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<growDays>3</growDays>
+			<leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath>
+		</plant>
+	</ThingDef>
+	<!--=============== Boilberry Bush ==============-->
+  <ThingDef ParentName="PlantBase">
+    <defName>RG_Plant_Boilberry</defName>
+    <label>boilberry bush</label>
+    <description>A bushy wild plant which yields delicious berries. Berries can be cooked, but they're also good to eat even when raw.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.50</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/BerryPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+        <offset>(0,0,-0.25)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>30</pathCost>
+    <plant>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <growDays>6</growDays>
+      <leaflessGraphicPath>Things/Plant/BerryPlant_Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Things/Plant/BerryPlant_Immature</immatureGraphicPath>
+      <harvestYield>10</harvestYield>
+      <harvestWork>250</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestedThingDef>RawBerries</harvestedThingDef>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <visualSizeRange>0.95~1.7</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+	<!--=============== Conoid Flower ==============-->
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_LuzincFlower</defName>
+		<label>luzinc</label>
+		<description>A colourful cone-shaped flower which grows in large clusters.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.18</Nutrition>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Deathbell</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.6</hideAtSnowDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.2</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>8</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<purpose>Beauty</purpose>
+		</plant>
+	</ThingDef>
+	<!--=============== Amitis Flower ==============-->
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_AmitisFlower</defName>
+		<label>amitis</label>
+		<description>A colourful flower which grows in large clusters.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.18</Nutrition>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Deathbell</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.6</hideAtSnowDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.2</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>8</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<purpose>Beauty</purpose>
+		</plant>
+	</ThingDef>
+	<!--=============== Boiling Aspen Tree ==============-->
+	<ThingDef ParentName="DeciduousTreeBase">
+		<defName>RG_Plant_TreeBoiling</defName>
+		<label>aspen tree</label>
+		<description>A genetically modified cold-biome tree known for its thin, white, paper-like bark and colourful leaves.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreeRedAspen</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.1)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<ingestible/>
+		<plant>
+			<growDays>20</growDays>
+			<harvestWork>800</harvestWork>
+			<harvestYield>27</harvestYield>
+			<leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
+		</plant>
+		<comps>
+			<li Class="CompProperties_Spawner">
+				<compClass>ReGrowthCore.CompLeavesSpawner</compClass>
+				<thingToSpawn>RG_Filth_LeavesAspenRedTree</thingToSpawn>
+				<spawnCount>2</spawnCount>
+				<spawnIntervalRange>60000~120000</spawnIntervalRange>
+				<spawnMaxAdjacent>3</spawnMaxAdjacent>
+				<saveKeysPrefix>aspenLeaves</saveKeysPrefix>
+			</li>
+		</comps>
+	</ThingDef>
+	<!--=============== Boiling Spike Pine Tree ==============-->
+	<ThingDef ParentName="TreeBase">
+		<defName>RG_Plant_SpikedBoilingTreePine</defName>
+		<label>pine tree</label>
+		<description>A large conifer covered with prickly pine cones. It grows in a distinctive conical shape.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreePine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<ingestible/>
+		<plant>
+			<growDays>20</growDays>
+			<visualSizeRange>1.3~3.0</visualSizeRange>
+			<harvestWork>800</harvestWork>
+			<harvestYield>27</harvestYield>
+		</plant>
+	</ThingDef>
+	<!--=============== Boiling Pine Tree ==============-->
+	<ThingDef ParentName="TreeBase">
+		<defName>RG_Plant_BoilingTreePine</defName>
+		<label>pine tree</label>
+		<description>A tall bright green conifer with a thin bark. It grows taller than other pines.</description>
+		<graphicData>
+			<texPath>Things/Plant/LargeTreePine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.05, 0.6, 0.15)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+		</statBases>
+		<ingestible/>
+		<plant>
+			<growDays>56</growDays>
+			<visualSizeRange>2.5~3.5</visualSizeRange>
+			<harvestWork>1200</harvestWork>
+			<harvestYield>36</harvestYield>
+			<pollutedGraphicPath>Things/Plant/Polluted/LargeTreePine_Polluted</pollutedGraphicPath>
+		</plant>
+	</ThingDef>
+</Defs>
