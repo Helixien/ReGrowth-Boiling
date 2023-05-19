@@ -82,7 +82,7 @@
 						<max>0.93</max>
 					</li>
 					<li>
-						<terrain>RG_HotSpringShallow</terrain>
+						<terrain>RG_HotSpring</terrain>
 						<min>0.93</min>
 						<max>1.06</max>
 					</li>
