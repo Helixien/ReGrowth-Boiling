@@ -119,9 +119,9 @@
 			<RG_Plant_BoilingMoss>1.0</RG_Plant_BoilingMoss>
 			<RG_Plant_LuzincFlower>0.5</RG_Plant_LuzincFlower>
 			<RG_Plant_AmitisFlower>0.5</RG_Plant_AmitisFlower>
-			<RG_Plant_TreeBoiling>0.5</RG_Plant_TreeBoiling>
+			<RG_Plant_TreeBoilingAspen>0.5</RG_Plant_TreeBoilingAspen>
 			<RG_Plant_SpikedBoilingTreePine>0.5</RG_Plant_SpikedBoilingTreePine>
-			<RG_Plant_BoilingTreePine/>
+			<RG_Plant_BoilingTreePine>0.05</RG_Plant_BoilingTreePine>
 			<RG_Plant_Boilberry>0.05</RG_Plant_Boilberry>
 			<Plant_HealrootWild>0.05</Plant_HealrootWild>
 			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">4</Plant_Ripthorn>

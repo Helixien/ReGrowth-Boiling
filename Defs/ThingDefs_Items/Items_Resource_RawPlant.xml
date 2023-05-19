@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>RG_RawBoilberries</defName>
+		<label>boilberries</label>
+		<description>Assorted berries with a warm feel to them. Nice to eat, even when raw.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/Boilberries</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.3</MarketValue>
+			<Mass>0.022</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>16</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought/>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+	</ThingDef>
+</Defs>
