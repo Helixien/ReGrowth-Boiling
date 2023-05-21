@@ -11,12 +11,12 @@
 		<movementDifficulty>1</movementDifficulty>
 		<texture>World/Biomes/BoilingForest</texture>
 		<forageability>1</forageability>
-		<foragedFood>RawBerries</foragedFood>
-		<wildPlantRegrowDays>20</wildPlantRegrowDays>
+		<foragedFood>RG_RawBoilberries</foragedFood>
+		<wildPlantRegrowDays>22</wildPlantRegrowDays>
 		<soundsAmbient>
 			<li>Ambient_NightInsects_Standard</li>
 		</soundsAmbient>
-		<diseaseMtbDays>50</diseaseMtbDays>
+		<diseaseMtbDays>55</diseaseMtbDays>
 		<diseases>
 			<li>
 				<diseaseInc>Disease_Flu</diseaseInc>
@@ -28,7 +28,7 @@
 			</li>
 			<li>
 				<diseaseInc>Disease_Malaria</diseaseInc>
-				<commonality>100</commonality>
+				<commonality>50</commonality>
 			</li>
 			<li>
 				<diseaseInc>Disease_GutWorms</diseaseInc>
@@ -97,18 +97,17 @@
 		<baseWeatherCommonalities>
 			<Clear>18</Clear>
 			<Fog>1</Fog>
-			<Rain>2</Rain>
+			<RG_BoilingDrizzle>2</RG_BoilingDrizzle>
+			<RG_BoilingRain>2</RG_BoilingRain>
 			<DryThunderstorm>1</DryThunderstorm>
-			<RainyThunderstorm>1</RainyThunderstorm>
-			<FoggyRain>1</FoggyRain>
+			<RG_BoilingRainyThunderstorm>1</RG_BoilingRainyThunderstorm>
+			<RG_BoilingFoggyRain>1</RG_BoilingFoggyRain>
 			<SnowGentle>4</SnowGentle>
 			<SnowHard>4</SnowHard>
-			<RG_Drizzle>2</RG_Drizzle>
 			<RG_FoggySnow>2</RG_FoggySnow>
 			<RG_Overcast>6</RG_Overcast>
 			<RG_Windy>8</RG_Windy>
 			<RG_Blizzard>0.5</RG_Blizzard>
-			<RG_Monsoon>0.5</RG_Monsoon>
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<RG_Plant_BoilingGrass>5.0</RG_Plant_BoilingGrass>
@@ -117,58 +116,55 @@
 			<RG_Plant_PurpuraCushion>0.4</RG_Plant_PurpuraCushion>
 			<RG_Plant_BoilingBush>0.3</RG_Plant_BoilingBush>
 			<RG_Plant_BramblesBoiling>1.0</RG_Plant_BramblesBoiling>
-
 			<RG_Plant_AmitisFlower>0.15</RG_Plant_AmitisFlower>
 			<RG_Plant_LuzincFlower>0.15</RG_Plant_LuzincFlower>
-						<Plant_HealrootWild>0.05</Plant_HealrootWild>
-									<RG_Plant_BoilingTreePine>0.5</RG_Plant_BoilingTreePine>
-												<RG_Plant_TreeBoilingBirch>0.4</RG_Plant_TreeBoilingBirch>
-								<RG_Plant_SpikedBoilingTreePine>0.15</RG_Plant_SpikedBoilingTreePine>
-			<!--			
-			
-
-
-
-
-			<RG_Plant_AmitisFlower>0.5</RG_Plant_AmitisFlower>
-
-
-
-			<RG_Plant_Boilberry>0.05</RG_Plant_Boilberry>
-
+			<Plant_HealrootWild>0.05</Plant_HealrootWild>
+			<RG_Plant_Boilberry>0.035</RG_Plant_Boilberry>
+			<RG_Plant_BoilingTreePine>0.5</RG_Plant_BoilingTreePine>
+			<RG_Plant_TreeBoilingBirch>0.4</RG_Plant_TreeBoilingBirch>
+			<RG_Plant_SpikedBoilingTreePine>0.15</RG_Plant_SpikedBoilingTreePine>
 			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">4</Plant_Ripthorn>
-			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">10</Plant_GrayGrass>
+			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">4</Plant_TreeGrayPine>
+			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">9.0</Plant_GrayGrass>
 			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">0.5</Plant_Witchwood>
-			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">4</Plant_TreeGrayPine>-->
 		</wildPlants>
 		<wildAnimals>
-			<Donkey>0.20</Donkey>
-			<GuineaPig>0.45</GuineaPig>
-			<Yak>0.06</Yak>
-			<Bison>0.07</Bison>
-			<Horse>0.20</Horse>
-			<Hare>1.0</Hare>
-			<Squirrel>1.0</Squirrel>
-			<Rat>1.0</Rat>
-			<Deer>0.5</Deer>
-			<WildBoar>0.5</WildBoar>
-			<Turkey>0.5</Turkey>
-			<Raccoon>0.5</Raccoon>
-			<Ibex>0.5</Ibex>
-			<Muffalo>0.5</Muffalo>
-			<Alpaca>0.5</Alpaca>
-			<Boomalope>0.4</Boomalope>
-			<Boomrat>0.4</Boomrat>
-			<Tortoise>0.3</Tortoise>
-			<Megasloth>0.2</Megasloth>
-			<Bear_Grizzly>0.07</Bear_Grizzly>
-			<Wolf_Timber>0.07</Wolf_Timber>
-			<Fox_Red>0.07</Fox_Red>
-			<Cougar>0.07</Cougar>
-			<Lynx>0.07</Lynx>
-			<Warg>0.07</Warg>
-			<RG_Moa>0.04</RG_Moa>
+			<Yak>0.12</Yak>
+			<Horse>0.15</Horse>
+			<Squirrel>1</Squirrel>
+			<Hare>1</Hare>
+			<Rat>1</Rat>
+			<Elk>0.2</Elk>
+			<Caribou>0.3</Caribou>
+			<Muffalo>0.3</Muffalo>
+			<WildBoar>0.2</WildBoar>
+			<Raccoon>0.3</Raccoon>
+			<Turkey>0.3</Turkey>
+			<Alpaca>0.3</Alpaca>
+			<Deer>0.4</Deer>
+			<Boomalope>0.2</Boomalope>
+			<Boomrat>0.2</Boomrat>
+			<Gazelle>0.1</Gazelle>
+			<Megasloth>0.05</Megasloth>
+			<Fox_Red>0.05</Fox_Red>
+			<Bear_Grizzly>0.05</Bear_Grizzly>
+			<Wolf_Timber>0.05</Wolf_Timber>
+			<Cougar>0.02</Cougar>
+			<Lynx>0.05</Lynx>
+			<Warg>0.05</Warg>
 		</wildAnimals>
+		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
+			<Toxalope MayRequire="Ludeon.RimWorld.Biotech">0.4</Toxalope>
+			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
+			<VAEWaste_Wasteffalo MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wasteffalo>
+			<VAEWaste_Toxbear MayRequire="VanillaExpanded.VAEWaste">0.05</VAEWaste_Toxbear>
+			<VAEWaste_Toxafox MayRequire="VanillaExpanded.VAEWaste">0.04</VAEWaste_Toxafox>
+			<VAEWaste_Wasteboar MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wasteboar>
+			<VAEWaste_Wastedeer MayRequire="VanillaExpanded.VAEWaste">0.3</VAEWaste_Wastedeer>
+			<Rat>0.5</Rat>
+			<Raccoon>0.25</Raccoon>
+			<Warg>0.05</Warg>
+		</pollutionWildAnimals>
 		<allowedPackAnimals>
 			<li>Muffalo</li>
 			<li>Alpaca</li>

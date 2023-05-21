@@ -1,6 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<WeatherDef>
+		<defName>RG_BoilingDrizzle</defName>
+		<label>boiling drizzle</label>
+		<description>Very fine but prominent rain which slightly reduces ranged weapon accuracy and movement speed.</description>
+		<temperatureRange>0~100</temperatureRange>
+		<windSpeedFactor>1.0</windSpeedFactor>
+		<accuracyMultiplier>0.9</accuracyMultiplier>
+		<favorability>Neutral</favorability>
+		<perceivePriority>1</perceivePriority>
+		<exposedThought>RG_Wet</exposedThought>
+		<rainRate>0.5</rainRate>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<ambientSounds>
+			<li>RG_Ambient_Drizzle</li>
+		</ambientSounds>
+		<overlayClasses>
+			<li>VFECore.WeatherOverlay_Custom</li>
+		</overlayClasses>
+		<commonalityRainfallFactor>
+			<points>
+				<li>(0, 0)</li>
+				<li>(1300, 1)</li>
+				<li>(4000, 3.0)</li>
+			</points>
+		</commonalityRainfallFactor>
+		<skyColorsDay>
+			<sky>(0.8,0.8,0.8)</sky>
+			<shadow>(0.92,0.92,0.92)</shadow>
+			<overlay>(0.7,0.7,0.7)</overlay>
+			<saturation>0.9</saturation>
+		</skyColorsDay>
+		<skyColorsDusk>
+			<sky>(1,1,1)</sky>
+			<shadow>(0.92,0.92,0.92)</shadow>
+			<overlay>(0.6,0.6,0.6)</overlay>
+			<saturation>0.9</saturation>
+		</skyColorsDusk>
+		<skyColorsNightEdge>
+			<sky>(0.35,0.40,0.45)</sky>
+			<shadow>(0.92,0.92,0.92)</shadow>
+			<overlay>(0.5,0.5,0.5)</overlay>
+			<saturation>0.9</saturation>
+		</skyColorsNightEdge>
+		<skyColorsNightMid>
+			<sky>(0.35,0.40,0.45)</sky>
+			<shadow>(0.92,0.92,0.92)</shadow>
+			<overlay>(0.5,0.5,0.5)</overlay>
+			<saturation>0.9</saturation>
+		</skyColorsNightMid>
+		<modExtensions>
+			<li Class="VFECore.WeatherOverlayExtension">
+				<overlayPath>Weather/DrizzleRainWorldOverlay</overlayPath>
+				<copyPropertiesFrom>Weather/RainOverlayWorld</copyPropertiesFrom>
+				<worldOverlayPanSpeed1>0.015</worldOverlayPanSpeed1>
+				<worldPanDir1>(-0.25, -1)</worldPanDir1>
+				<worldOverlayPanSpeed2>0.022</worldOverlayPanSpeed2>
+				<worldPanDir2>(-0.24, -1)</worldPanDir2>
+			</li>
+		</modExtensions>
+	</WeatherDef>
+	<WeatherDef>
 		<defName>RG_BoilingRain</defName>
 		<label>boiling rain</label>
 		<description>Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.</description>
