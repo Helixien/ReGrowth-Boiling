@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
 	<!-- ================ Boiling weather fog mote size ================ -->
 	<Operation Class="ReGrowthCore.PatchOperationSliderFloat">
 		<label>Boiling rain fog splashes size</label>
@@ -10,7 +9,6 @@
 		<range>0.01~3</range>
 		<defaultValue>0.5</defaultValue>
 	</Operation>
-	
 	<!-- ================ Boiling weather fog spawn rate ================ -->
 	<Operation Class="ReGrowthCore.PatchOperationSliderFloat">
 		<label>Boiling rain fog spawn rate</label>

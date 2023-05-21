@@ -7,7 +7,7 @@
 		<id>RG_ToggleBoilingRainDamage</id>
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/WeatherDef[defName = "RG_BoilingRain"]/modExtensions</xpath>
+				<xpath>/Defs/WeatherDef[defName = "RG_BoilingRain" or "RG_BoilingDrizzle" or "RG_BoilingRainyThunderstorm" or "RG_BoilingFoggyRain"]/modExtensions</xpath>
 				<value>
 					<li Class="VFECore.WeatherEffectsExtension">
 						<ticksInterval>300~600</ticksInterval>
