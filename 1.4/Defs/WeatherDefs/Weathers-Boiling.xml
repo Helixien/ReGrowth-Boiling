@@ -77,6 +77,7 @@
 		</ambientSounds>
 		<overlayClasses>
 			<li>WeatherOverlay_Rain</li>
+			<li>ReGrowthCore.WeatherOverlay_FogMotes</li>
 		</overlayClasses>
 		<commonalityRainfallFactor>
 			<points>
@@ -110,7 +111,14 @@
 			<overlay>(0.5,0.5,0.5)</overlay>
 			<saturation>0.9</saturation>
 		</skyColorsNightMid>
+		<modExtensions>
+			<li Class="ReGrowthCore.WeatherExtension_FogMotes">
+				<fogSize>0.5</fogSize>
+				<fogSpawnRate>0.5</fogSpawnRate>
+			</li>
+		</modExtensions>
 	</WeatherDef>
+	
 	<WeatherDef>
 		<defName>RG_BoilingRainyThunderstorm</defName>
 		<label>rainy thunderstorm</label>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- ================ Toggle boiling rain damage================ -->
+	<Operation Class="ReGrowthCore.PatchOperationModOption">
+		<defaultValue>True</defaultValue>
+		<label>Toggle boiling rain damage</label>
+		<id>RG_ToggleBoilingRainDamage</id>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/WeatherDef[defName = "RG_BoilingRain"]/modExtensions</xpath>
+				<value>
+					<li Class="VFECore.WeatherEffectsExtension">
+						<ticksInterval>300~600</ticksInterval>
+						<killsPlants>false</killsPlants>
+						<damageToApply>Burn</damageToApply>
+						<damageRange>0.1~0.5</damageRange>
+						<percentOfPawnsToDealDamage>0.1</percentOfPawnsToDealDamage>
+						<activeOnWeatherPerceived>RG_BoilingRain</activeOnWeatherPerceived>
+						<worksOnNonFleshPawns>false</worksOnNonFleshPawns>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
