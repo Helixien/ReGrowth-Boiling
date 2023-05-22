@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="BaseFilth">
+	<ThingDef ParentName="RG_BaseFilthLeaves">
 		<defName>RG_Filth_LeavesBoilingTree</defName>
 		<label>aspen leaves</label>
 		<graphicData>
 			<texPath>Things/Filth/LeavesBoilingBirch</texPath>
 		</graphicData>
-		<hideAtSnowDepth>0.3</hideAtSnowDepth>
-		<filth>
+		<filth Inherit="False">
 			<disappearsInDays>5~10</disappearsInDays>
 			<cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
 			<rainWashes>false</rainWashes>
