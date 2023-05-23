@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+	<!-- ================ Herd migration patch ================ -->
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
@@ -10,6 +11,7 @@
 			</li>
 		</operations>
 	</Operation>
+	<!-- ================ World Map Beautification Project patch ================ -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>World Map Beautification Project</li>
@@ -31,6 +33,7 @@
 			</value>
 		</match>
 	</Operation>
+	<!-- ================ Vanilla Fishing Expanded ================ -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Fishing Expanded</li>
