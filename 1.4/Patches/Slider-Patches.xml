@@ -2,20 +2,22 @@
 <Patch>
 	<!-- ================ Boiling weather fog mote size ================ -->
 	<Operation Class="ModSettingsFramework.PatchOperationSliderFloat">
-		<label>Boiling rain fog splashes size</label>
-		<tooltip>Adjust the boiling rain fog splashes size</tooltip>
+		<label>Tweak boiling rain smoke splashes size</label>
+		<tooltip>Adjust the boiling rain smoke splashes size</tooltip>
 		<id>RG_BoilingRainFogSplashesSize</id>
-		<xpath>Defs/WeatherDef[defName="RG_BoilingRain"]/modExtensions/li[@Class="ReGrowthCore.WeatherExtension_FogMotes"]/fogSize</xpath>
-		<range>0.01~3</range>
+		<order>2</order>
+		<xpath>Defs/WeatherDef[defName="RG_BoilingRain" or defName="RG_BoilingDrizzle" or defName="RG_BoilingFoggyRain" or defName="RG_BoilingRainyThunderstorm"]/modExtensions/li[@Class="ReGrowthCore.WeatherExtension_FogMotes"]/fogSize</xpath>
+		<range>0~3</range>
 		<defaultValue>0.5</defaultValue>
 	</Operation>
 	<!-- ================ Boiling weather fog spawn rate ================ -->
 	<Operation Class="ModSettingsFramework.PatchOperationSliderFloat">
-		<label>Boiling rain fog spawn rate</label>
-		<tooltip>Adjust the boiling rain fog splashes spawn rate</tooltip>
+		<label>Tweak boiling rain smoke spawn rate</label>
+		<tooltip>Adjust the boiling rain smoke splashes spawn rate</tooltip>
 		<id>RG_BoilingRainFogSpawnRate</id>
-		<xpath>Defs/WeatherDef[defName="RG_BoilingRain"]/modExtensions/li[@Class="ReGrowthCore.WeatherExtension_FogMotes"]/fogSpawnRate</xpath>
-		<range>0.01~3</range>
+		<order>3</order>
+		<xpath>Defs/WeatherDef[defName="RG_BoilingRain" or defName="RG_BoilingDrizzle" or defName="RG_BoilingFoggyRain" or defName="RG_BoilingRainyThunderstorm"]/modExtensions/li[@Class="ReGrowthCore.WeatherExtension_FogMotes"]/fogSpawnRate</xpath>
+		<range>0~3</range>
 		<defaultValue>0.5</defaultValue>
 	</Operation>
 </Patch>

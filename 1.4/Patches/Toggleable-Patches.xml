@@ -5,9 +5,24 @@
 		<defaultValue>True</defaultValue>
 		<label>Toggle boiling rain damage</label>
 		<id>RG_ToggleBoilingRainDamage</id>
+		<order>1</order>
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/WeatherDef[defName = "RG_BoilingRain" or "RG_BoilingDrizzle" or "RG_BoilingRainyThunderstorm" or "RG_BoilingFoggyRain"]/modExtensions</xpath>
+				<xpath>/Defs/WeatherDef[defName = "RG_BoilingDrizzle"]/modExtensions</xpath>
+				<value>
+					<li Class="VFECore.WeatherEffectsExtension">
+						<ticksInterval>400~700</ticksInterval>
+						<killsPlants>false</killsPlants>
+						<damageToApply>Burn</damageToApply>
+						<damageRange>0.1~0.3</damageRange>
+						<percentOfPawnsToDealDamage>0.1</percentOfPawnsToDealDamage>
+						<activeOnWeatherPerceived>RG_BoilingDrizzle</activeOnWeatherPerceived>
+						<worksOnNonFleshPawns>false</worksOnNonFleshPawns>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/WeatherDef[defName = "RG_BoilingRain"]/modExtensions</xpath>
 				<value>
 					<li Class="VFECore.WeatherEffectsExtension">
 						<ticksInterval>300~600</ticksInterval>
@@ -16,6 +31,34 @@
 						<damageRange>0.1~0.5</damageRange>
 						<percentOfPawnsToDealDamage>0.1</percentOfPawnsToDealDamage>
 						<activeOnWeatherPerceived>RG_BoilingRain</activeOnWeatherPerceived>
+						<worksOnNonFleshPawns>false</worksOnNonFleshPawns>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/WeatherDef[defName = "RG_BoilingFoggyRain"]/modExtensions</xpath>
+				<value>
+					<li Class="VFECore.WeatherEffectsExtension">
+						<ticksInterval>300~600</ticksInterval>
+						<killsPlants>false</killsPlants>
+						<damageToApply>Burn</damageToApply>
+						<damageRange>0.1~0.5</damageRange>
+						<percentOfPawnsToDealDamage>0.1</percentOfPawnsToDealDamage>
+						<activeOnWeatherPerceived>RG_BoilingFoggyRain</activeOnWeatherPerceived>
+						<worksOnNonFleshPawns>false</worksOnNonFleshPawns>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/WeatherDef[defName = "RG_BoilingRainyThunderstorm"]/modExtensions</xpath>
+				<value>
+					<li Class="VFECore.WeatherEffectsExtension">
+						<ticksInterval>200~500</ticksInterval>
+						<killsPlants>false</killsPlants>
+						<damageToApply>Burn</damageToApply>
+						<damageRange>0.3~0.9</damageRange>
+						<percentOfPawnsToDealDamage>0.1</percentOfPawnsToDealDamage>
+						<activeOnWeatherPerceived>RG_BoilingRainyThunderstorm</activeOnWeatherPerceived>
 						<worksOnNonFleshPawns>false</worksOnNonFleshPawns>
 					</li>
 				</value>
