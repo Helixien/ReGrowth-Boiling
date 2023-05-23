@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- ================ Boiling weather fog mote size ================ -->
-	<Operation Class="ReGrowthCore.PatchOperationSliderFloat">
+	<Operation Class="ModSettingsFramework.PatchOperationSliderFloat">
 		<label>Boiling rain fog splashes size</label>
 		<tooltip>Adjust the boiling rain fog splashes size</tooltip>
 		<id>RG_BoilingRainFogSplashesSize</id>
@@ -10,7 +10,7 @@
 		<defaultValue>0.5</defaultValue>
 	</Operation>
 	<!-- ================ Boiling weather fog spawn rate ================ -->
-	<Operation Class="ReGrowthCore.PatchOperationSliderFloat">
+	<Operation Class="ModSettingsFramework.PatchOperationSliderFloat">
 		<label>Boiling rain fog spawn rate</label>
 		<tooltip>Adjust the boiling rain fog splashes spawn rate</tooltip>
 		<id>RG_BoilingRainFogSpawnRate</id>

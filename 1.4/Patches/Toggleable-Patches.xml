@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- ================ Toggle boiling rain damage================ -->
-	<Operation Class="ReGrowthCore.PatchOperationModOption">
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
 		<defaultValue>True</defaultValue>
 		<label>Toggle boiling rain damage</label>
 		<id>RG_ToggleBoilingRainDamage</id>
