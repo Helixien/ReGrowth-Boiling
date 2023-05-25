@@ -4,7 +4,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>RG_Plant_BoilingGrass</defName>
 		<label>grass</label>
-		<description>Wild grass. Grows in boiling forest regions where there is a little light and minimally fertile ground.</description>
+		<description>Wild grass. Grows in boiling forest regions where there is little light and minimally fertile ground.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Flammability>1.2</Flammability>
@@ -31,7 +31,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>RG_Plant_TallBoilingGrass</defName>
 		<label>grass</label>
-		<description>Wild tall grass. Grows in boiling forest regions where there is a little light and minimally fertile ground. Slows down anyone moving over it.</description>
+		<description>Wild tall grass. Grows in boiling forest regions where there is light and minimally fertile ground. Slows down anyone moving over it.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.3</Flammability>
@@ -309,8 +309,8 @@
 	<!--=============== Boiling Aspen Tree ==============-->
 	<ThingDef ParentName="DeciduousTreeBase">
 		<defName>RG_Plant_TreeBoilingBirch</defName>
-		<label>aspen tree</label>
-		<description>A genetically modified cold-biome tree known for its thin, white, paper-like bark and colourful leaves.</description>
+		<label>birch tree</label>
+		<description>A genetically modified birch tree known for its light brownish, white, paper-like bark and colourful blue leaves.</description>
 		<graphicData>
 			<texPath>Things/Plant/TreeBoilingBirch</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -345,7 +345,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>RG_Plant_SpikedBoilingTreePine</defName>
 		<label>pine tree</label>
-		<description>A large pinkish conifer covered with spike-like barks. It grows in a distinctive conical shape.</description>
+		<description>A large pinkish conifer covered with spike-like bark. It grows in a distinctive wild shape.</description>
 		<graphicData>
 			<texPath>Things/Plant/TreeSpikedBoilingPine</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -370,7 +370,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>RG_Plant_BoilingTreePine</defName>
 		<label>pine tree</label>
-		<description>A tall bright redish conifer with a thin bark. It grows taller than other pines.</description>
+		<description>A tall bright reddish conifer with a thin bark and prickly pine cones. It grows in a unique long shape.</description>
 		<graphicData>
 			<texPath>Things/Plant/TreeBoilingPine</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -380,8 +380,8 @@
 			</shadowData>
 		</graphicData>
 		<statBases>
-			<Beauty>4</Beauty>
-			<BeautyOutdoors>4</BeautyOutdoors>
+			<Beauty>3</Beauty>
+			<BeautyOutdoors>3</BeautyOutdoors>
 		</statBases>
 		<ingestible/>
 		<plant>

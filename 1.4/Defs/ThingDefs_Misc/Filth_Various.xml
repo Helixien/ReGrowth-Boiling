@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="RG_BaseFilthLeaves">
 		<defName>RG_Filth_LeavesBoilingTree</defName>
-		<label>aspen leaves</label>
+		<label>birch leaves</label>
 		<graphicData>
 			<texPath>Things/Filth/LeavesBoilingBirch</texPath>
 		</graphicData>
