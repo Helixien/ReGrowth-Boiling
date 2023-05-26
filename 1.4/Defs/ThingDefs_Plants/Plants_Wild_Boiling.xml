@@ -206,7 +206,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>RG_Edaku</defName>
 		<label>edaku</label>
-		<description>A yellow and delicious mushroom growing in clusters. It grows exclusively in boiling forests.</description>
+		<description>A delicious yellow mushroom that glows and growing in clusters. It grows exclusively in boiling forests.</description>
 		<graphicData>
 			<texPath>Things/Plant/Edaku</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -344,8 +344,8 @@
 	<!--=============== Boiling Spike Pine Tree ==============-->
 	<ThingDef ParentName="TreeBase">
 		<defName>RG_Plant_SpikedBoilingTreePine</defName>
-		<label>pine tree</label>
-		<description>A large pinkish conifer covered with spike-like bark. It grows in a distinctive wild shape.</description>
+		<label>spike-bark tree</label>
+		<description>A genetically modified large pinkish conifer covered with spike-like bark. It grows in a distinctive wild shape.</description>
 		<graphicData>
 			<texPath>Things/Plant/TreeSpikedBoilingPine</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -370,7 +370,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>RG_Plant_BoilingTreePine</defName>
 		<label>pine tree</label>
-		<description>A tall bright reddish conifer with a thin bark and prickly pine cones. It grows in a unique long shape.</description>
+		<description>A genetically modified tall bright reddish conifer with a thin bark and prickly pine cones. It grows in a unique long shape.</description>
 		<graphicData>
 			<texPath>Things/Plant/TreeBoilingPine</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
