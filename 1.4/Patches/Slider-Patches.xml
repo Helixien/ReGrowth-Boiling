@@ -5,7 +5,7 @@
 		<label>Tweak boiling rain smoke splashes size</label>
 		<tooltip>Adjust the boiling rain smoke splashes size</tooltip>
 		<id>RG_BoilingRainFogSplashesSize</id>
-		<order>2</order>
+		<order>10</order>
 		<xpath>Defs/WeatherDef[defName="RG_BoilingRain" or defName="RG_BoilingDrizzle" or defName="RG_BoilingFoggyRain" or defName="RG_BoilingRainyThunderstorm"]/modExtensions/li[@Class="ReGrowthCore.WeatherExtension_FogMotes"]/fogSize</xpath>
 		<range>0~3</range>
 		<defaultValue>0.5</defaultValue>
@@ -15,7 +15,7 @@
 		<label>Tweak boiling rain smoke spawn rate</label>
 		<tooltip>Adjust the boiling rain smoke splashes spawn rate</tooltip>
 		<id>RG_BoilingRainFogSpawnRate</id>
-		<order>3</order>
+		<order>20</order>
 		<xpath>Defs/WeatherDef[defName="RG_BoilingRain" or defName="RG_BoilingDrizzle" or defName="RG_BoilingFoggyRain" or defName="RG_BoilingRainyThunderstorm"]/modExtensions/li[@Class="ReGrowthCore.WeatherExtension_FogMotes"]/fogSpawnRate</xpath>
 		<range>0~3</range>
 		<defaultValue>0.5</defaultValue>
