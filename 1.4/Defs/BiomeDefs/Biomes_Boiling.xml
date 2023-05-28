@@ -148,11 +148,10 @@
 			<Gazelle>0.1</Gazelle>
 			<Megasloth>0.05</Megasloth>
 			<Fox_Red>0.05</Fox_Red>
-			<Bear_Grizzly>0.05</Bear_Grizzly>
+			<RG_Owlbeast>0.1</RG_Owlbeast>
 			<Wolf_Timber>0.05</Wolf_Timber>
 			<Cougar>0.02</Cougar>
 			<Lynx>0.05</Lynx>
-			<Warg>0.05</Warg>
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
 			<Toxalope MayRequire="Ludeon.RimWorld.Biotech">0.4</Toxalope>
