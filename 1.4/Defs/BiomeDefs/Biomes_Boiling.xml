@@ -121,6 +121,8 @@
 			<Plant_HealrootWild>0.05</Plant_HealrootWild>
 			<RG_Plant_Boilberry>0.035</RG_Plant_Boilberry>
 			<RG_Edaku>0.04</RG_Edaku>
+			<RG_Plant_Edaku>0.000000000000001</RG_Plant_Edaku>
+			<!--=============== Why the 0s? Because I cant lock them to a biome unless the value is greater than 0 because fuck me I gues... ==============-->
 			<RG_Plant_BoilingTreePine>0.5</RG_Plant_BoilingTreePine>
 			<RG_Plant_TreeBoilingBirch>0.4</RG_Plant_TreeBoilingBirch>
 			<RG_Plant_SpikedBoilingTreePine>0.15</RG_Plant_SpikedBoilingTreePine>
